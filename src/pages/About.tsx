@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Users, Target, Lightbulb, Award, ArrowRight, Heart, Zap, Globe } from "lucide-react";
-// import heroImage from "@/assets/website1.jpg";
+import heroImage from "@/assets/web2.jpg";
 
 const values = [
   {
@@ -84,16 +84,23 @@ export default function About() {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="py-20 hero-gradient text-white">
-        {/* <img src={heroImage} alt="Hero Image" className="absolute inset-0 object-cover object-center w-full h-auto opacity-90"></img> */}
+       <section 
+        className="relative h-[50vh] flex items-center justify-center hero-gradient overflow-hidden"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${heroImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: "inherit"
+        }}
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="max-w-4xl mx-auto text-center">
             
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              About <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">FLYBIT Dynamics</span>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white">
+              About <span className="text-transparent opacity-90 bg-clip-text bg-gradient-to-r from-primary to-accent">FLYBIT Dynamics</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed">
+            <p className="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed text-white">
               We believe in the power of light, movement, and technology to create magic. From a spark of inspiration to sky-filling animations, our drone light shows are crafted with precision and passion.
             </p>
             <div className="text-2xl font-space-grotesk font-semibold text-primary mb-8">

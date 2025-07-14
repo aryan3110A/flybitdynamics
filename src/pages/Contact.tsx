@@ -18,6 +18,7 @@ import {
   Calendar
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import heroImage from "@/assets/web2.jpg";
 
 const contactInfo = [
   {
@@ -127,6 +128,8 @@ export default function Contact() {
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
       <section className="py-20 hero-gradient text-white">
+                        <img src={heroImage} alt="Hero Image" className="absolute inset-0 object-cover object-center w-full h-auto opacity-90 top-20"></img>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Let's Light Up the Sky <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Together!</span>
