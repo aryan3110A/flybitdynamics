@@ -109,14 +109,20 @@ export default function FAQs() {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="py-20 hero-gradient text-white">
-                        <img src={heroImage} alt="Hero Image" className="absolute inset-0 object-cover object-center w-full h-auto opacity-90 top-20"></img>
-
+     <section 
+        className="relative h-[50vh] flex items-center justify-center hero-gradient overflow-hidden"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${heroImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: "inherit"
+        }}
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white">
             Frequently Asked <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Questions</span>
           </h1>
-          <p className="text-xl md:text-2xl mb-8 opacity-90 max-w-4xl mx-auto">
+          <p className="text-xl md:text-2xl mb-8 text-white max-w-4xl mx-auto">
             Everything you need to know about FLYBIT Dynamics drone light shows. Can't find your answer? We're here to help!
           </p>
         </div>
