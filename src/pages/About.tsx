@@ -85,7 +85,7 @@ export default function About() {
     <div className="min-h-screen pt-16 ">
       {/* Hero Section */}
        <section 
-        className="relative h-[50vh] flex items-center justify-center hero-gradient overflow-hidden"
+        className="relative h-[60vh] md:h-[50vh] flex items-center justify-center hero-gradient overflow-hidden"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${heroImage})`,
           backgroundSize: 'cover',
@@ -93,7 +93,7 @@ export default function About() {
           backgroundAttachment: "inherit"
         }}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 md:0">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20 md:mt-0">
           
           <div className="max-w-4xl mx-auto text-center">
             

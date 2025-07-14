@@ -16,7 +16,7 @@ import {
   Activity,
   Map
 } from "lucide-react";
-import heroImage from "@/assets/web2.jpg";
+import heroImage from "@/assets/web4.jpg";
 
 const techSpecs = [
   {
@@ -118,7 +118,7 @@ export default function Technology() {
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
       <section 
-        className="relative h-[50vh] flex items-center justify-center hero-gradient overflow-hidden"
+        className="relative h-[55vh] md:h-[50vh] flex items-center justify-center hero-gradient overflow-hidden"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${heroImage})`,
           backgroundSize: 'cover',

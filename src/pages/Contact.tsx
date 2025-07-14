@@ -18,7 +18,7 @@ import {
   Calendar
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-import heroImage from "@/assets/web2.jpg";
+import heroImage from "@/assets/contact.jpg";
 
 const contactInfo = [
   {

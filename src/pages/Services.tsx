@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Heart, Building2, Flag, Rocket, Church, Trophy, ArrowRight, Zap, Users, Star } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/web2.jpg";
+import heroImage from "@/assets/web3.jpg";
 
 const services = [
   {
@@ -150,7 +150,7 @@ export default function Services() {
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
       <section 
-        className="relative h-[50vh] flex items-center justify-center hero-gradient overflow-hidden"
+        className="relative h-[55vh] md:h-[50vh] flex items-center justify-center hero-gradient overflow-hidden"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${heroImage})`,
           backgroundSize: 'cover',

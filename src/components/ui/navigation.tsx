@@ -96,10 +96,16 @@ export function Navigation() {
                 </Link>
               ))}
               <div className="px-3 py-2">
+                <Link to={"/contact"}
+                onClick={() => {
+                  setIsOpen(false);
+                  window.scrollTo(0, 0);
+                }}>
                 <Button variant="default" className="btn-glow w-full">
                   <Phone className="w-4 h-4 mr-2" />
                   Book a Show
                 </Button>
+                </Link>
               </div>
             </div>
           </div>
