@@ -45,7 +45,7 @@ export default function Home() {
     <div className="min-h-screen ">
       {/* Hero Section */}
       <section 
-        className="relative h-[100vh] md:min-h-screen flex items-center justify-center hero-gradient overflow-hidden"
+        className="relative h-[120vh] md:min-h-screen flex items-center justify-center hero-gradient overflow-hidden"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${heroImage})`,
           backgroundSize: 'cover',
