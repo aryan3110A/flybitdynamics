@@ -159,7 +159,7 @@ export default function Services() {
         }}
       >
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-10 md:pt-0">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white">
             One Technology. <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Infinite Possibilities.</span>
           </h1>

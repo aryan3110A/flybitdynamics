@@ -42,7 +42,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen ">
       {/* Hero Section */}
       <section 
         className="relative min-h-screen flex items-center justify-center hero-gradient overflow-hidden"
@@ -53,7 +53,7 @@ export default function Home() {
           backgroundAttachment: 'fixed'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent pt-10 md:pt-0"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Where Wonder <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Begins</span>

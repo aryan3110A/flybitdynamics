@@ -82,7 +82,7 @@ export default function About() {
   }, []);
 
   return (
-    <div className="min-h-screen pt-16">
+    <div className="min-h-screen pt-16 ">
       {/* Hero Section */}
        <section 
         className="relative h-[50vh] flex items-center justify-center hero-gradient overflow-hidden"
@@ -93,7 +93,7 @@ export default function About() {
           backgroundAttachment: "inherit"
         }}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 md:0">
           
           <div className="max-w-4xl mx-auto text-center">
             

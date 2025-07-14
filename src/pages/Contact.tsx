@@ -125,7 +125,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen pt-16">
+    <div className="min-h-screen pt-16 ">
       {/* Hero Section */}
      <section 
         className="relative h-[50vh] flex items-center justify-center hero-gradient overflow-hidden"
@@ -137,7 +137,7 @@ export default function Contact() {
         }}
       >
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white pt-10 md:pt-0">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Let's Light Up the Sky <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Together!</span>
           </h1>
