@@ -139,7 +139,7 @@ export default function Contact() {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white pt-10 md:pt-0">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Let's Light Up the Sky <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Together!</span>
+            Let's Light Up the Sky <br></br><span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Together!</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white max-w-4xl mx-auto">
             Ready to create an unforgettable experience? Tell us your vision and we'll make it happen in the night sky.

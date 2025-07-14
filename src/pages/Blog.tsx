@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { CalendarDays, Clock, User, ArrowRight, Heart, Lightbulb, Cog } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/web2.jpg";
+import heroImage from "@/assets/web6.jpg";
 
 const blogPosts = [
   {
