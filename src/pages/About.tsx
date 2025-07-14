@@ -93,7 +93,7 @@ export default function About() {
           backgroundAttachment: "inherit"
         }}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20 md:mt-0">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 md:mt-0">
           
           <div className="max-w-4xl mx-auto text-center">
             

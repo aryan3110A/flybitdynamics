@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/accordion";
 import { MessageCircle, Phone, Mail, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/web2.jpg";
+import heroImage from "@/assets/web5.jpg";
 
 const faqCategories = [
   {
