@@ -75,8 +75,8 @@ export function Navigation() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black/90 backdrop-blur-md rounded-lg mt-2">
+          <div className="md:hidden pb-5">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black backdrop-blur-md rounded-lg mt-2">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
@@ -89,7 +89,7 @@ export function Navigation() {
                     "block px-3 py-2 text-base font-medium transition-colors",
                     isActive(item.href) 
                       ? "text-primary" 
-                      : "text-[#3D473B] hover:text-primary"
+                      : "text-white/90 hover:text-primary"
                   )}
                 >
                   {item.name}
